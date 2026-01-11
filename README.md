@@ -4,6 +4,8 @@ A lightweight, privacy-focused Chrome Extension that automatically appends `-ai`
 
 ## Features
 
+- **Seamless Filtering:** Automatically detects search queries and appends -ai to filter out AI results.
+- **Dynamic Update Support:** Monitors tab updates to ensure the filter persists even during continuous searching or page reloading.
 - **Instant Redirect:** Uses the `webNavigation` API to modify the query before the page loads.
 - **Toggle Switch:** Easily enable or disable the filter via a popup menu.
 - **Privacy Focused:** Only runs on Google Search URLs. No data is collected or transmitted.
